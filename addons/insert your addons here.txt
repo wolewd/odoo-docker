@@ -1,0 +1,2 @@
+this folder os for 3rd party addons.
+if you have another instance for odoo app and want to add addons for that instance, put it on another addons folder outside here.
