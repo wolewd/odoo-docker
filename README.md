@@ -2,15 +2,17 @@
 This setup is using official image [Odoo 18](https://hub.docker.com/_/odoo)  and [PostgreSQL 17](https://hub.docker.com/_/postgres). I follow the documentation [here](https://opensourcehustle.com/blog/odoo-erp-1/odoo-windows-docker-compose-7) to install it on my system. Make sure you install [docker](https://docs.docker.com/engine/install/) on your system to follow this guide.
 
 # Folder Structure
->odoo-docker/ 
->├── addons/ *# Custom addons here*
->│ └── <your_addon> *# example of custom addons*
->│ ├── **init**.py 
->│ └── **manifest**.py 
->├── config/ *# Odoo configuration*
->│ └── odoo.conf 
->├── docker-compose.yml  *# Main docker file*
->├── README.md
+```
+odoo-docker/ 
+├── addons/ *# Custom addons here*
+│ └── <your_addon> *# example of custom addons*
+│ ├── **init**.py 
+│ └── **manifest**.py 
+├── config/ *# Odoo configuration*
+│ └── odoo.conf 
+├── docker-compose.yml  *# Main docker file*
+├── README.md
+```
 
 # Docker Compose Structure
 
