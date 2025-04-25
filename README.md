@@ -66,7 +66,7 @@ If you are using this setup to work on a custom Odoo module then you will need t
 This would update the hustle_website module on restart.
 
 > **NOTE:** 
-> I removed the  _-i base_ flag from the command as this flag recreates the database,  **erasing all progress**, this flag should only be used once to create the database then removed.
+> I removed the  _-i stock --without-demo=all_ flag from the command as this flag recreates the database,  **erasing all progress**, this flag should only be used once to create the database then removed.
 
 Another useful flag that you can add is the  _--dev=xml_ flag, when using this flag you do not need to restart the container when making changes to XML files, simply refresh the page and the changes are in affect, here is the command with the XML flag:
 
